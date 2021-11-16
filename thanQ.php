@@ -8,7 +8,8 @@
     <?php
         require 'vendor/autoload.php';
         $client = new MongoDB\Client(
-            'mongodb+srv://m001-student:temporary2@cluster0.d1x63.mongodb.net/test?retryWrites=true&w=majority');
+            'mongodb+srv://*****:*******@****.mongodb.net/test?retryWrites=true&w=majority');
+            // * the connection username, password, cluster information for obvious reasons.
         /*$db = $client->test;
         //$collection1 = $db->emp1;   
         //$entry = $collection1->insertOne(["answer" => "When I can make someone laugh."]); */
