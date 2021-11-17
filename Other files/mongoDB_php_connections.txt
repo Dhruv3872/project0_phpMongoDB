@@ -1,4 +1,0 @@
-$client = new MongoDB\Client(
-    'mongodb+srv://m001-student:temporary2@cluster0.d1x63.mongodb.net/test?retryWrites=true&w=majority'
-);
-$db = $client->test;

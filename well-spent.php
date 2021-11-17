@@ -56,8 +56,12 @@
         //echo "\n\n\n\n\n\n\n\n\n\n";
         require 'vendor/autoload.php';
         $client = new MongoDB\Client(
+<<<<<<< HEAD
         'mongodb+srv://*****:******@*****.mongodb.net/test?retryWrites=true&w=majority');
         // * the connection username, password, cluster information for obvious reasons.
+=======
+        'mongodb+srv://****:****@cluster0.****.mongodb.net/test?retryWrites=true&w=majority'); //* for obvious reasons
+>>>>>>> fd0119bcc67e82ffce9ac1d10c33640193125fb8
         $days = $client -> days ;
         $wellSpent = $days-> well_spent_days;
         $wellSpent->insertOne(["answer" => $a]);
